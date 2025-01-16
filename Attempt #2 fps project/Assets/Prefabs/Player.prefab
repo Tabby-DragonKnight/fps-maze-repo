@@ -161,12 +161,20 @@ MonoBehaviour:
   controller: {fileID: 5044601537914070965}
   ignoreMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   speed: 5
   sprintMod: 2
   jumpmax: 1
   jumpspeed: 12
   gravity: 28
+  m_baseSpeed: 0
+  playerCamera: {fileID: 0}
+  crouchCameraHeight: 0.25
+  crouchColliderHeight: 1
+  crouchSpeed: 3.5
+  crouchMoveSpeed: 5
+  crouchYScale: 0.65
+  crouchKey: 306
 --- !u!33 &6509992411996605386
 MeshFilter:
   m_ObjectHideFlags: 0
